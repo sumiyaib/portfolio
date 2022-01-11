@@ -35,6 +35,19 @@
   box-shadow: 0 0 10px;
 }
 
+.bg {
+  /* The image used */
+  background-image: url("../images/img1.JPG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Home Sections */
 #Home {
   display: flex;
@@ -44,6 +57,7 @@
   align-items: center;
   color: black;
 }
+
 #Home::before {
   content: "";
   position: absolute;
@@ -55,7 +69,12 @@
   z-index: -1;
   opacity: 0.8;
 }
-
+.headings {
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  transform: scale(1, 1.2);
+}
 .Main {
   display: flex;
   border: 2px solid black;
